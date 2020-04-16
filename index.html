@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/Swiper/3.4.0/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/3.4.0/js/swiper.min.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="topnbd">
+        <div class="top">
+            <div class="topbg"></div>
+            <div class="logo">
+                <a href="/">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="toptel">
+                <div class="tel">热线-QQ</div>
+                <div class="num">057987116667</div>
+            </div>
+        </div>
+    </div>
+    <div class="navgrp">
+        <ul class="nav">
+            <li><a href="/" title="首页">首页</a></li>
+            <li><a href="/" title="成功案例">成功案例</a></li>
+            <li><a href="/" title="联系我们">联系我们</a>
+                <div class="navChild">
+                    <a href="/">咨询1</a>
+                    <a href="/">咨询2</a>
+                    <a href="/">咨询3</a>
+                    <a href="/">咨询4</a>
+                    <div class="triangular"></div>
+                </div>
+            </li>
+            <li><a href="#" title="技术咨询">技术咨询</a>
+                <div class="navChild">
+                    <a href="/">咨询1</a>
+                    <a href="/">咨询2</a>
+                    <a href="/">咨询3</a>
+                    <a href="/">咨询4</a>
+                    <div class="triangular"></div>
+                </div>
+            </li>
+            <li><a href="/" title="产品展示">产品展示</a></li>
+            <li><a href="/" title="新闻资讯">新闻资讯</a></li>
+        </ul>
+    </div>
+</header>
+<div class="swiper-box">
+    <div class="swiper-container swiper-container-horizontal">
+        <div class="swiper-wrapper" >
+            <div class="swiper-slide" ><img src="./img/example1.jpg" alt=""></div>
+            <div class="swiper-slide" ><img src="./img/example2.jpg" alt=""></div>
+            <div class="swiper-slide" ><img src="./img/example3.jpg" alt=""></div>
+            <div class="swiper-slide" ><img src="./img/example4.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+    </div>
+</div>
+<div class="content-box">
+    <div class="product-show">
+        <p>产品展示</p>
+    </div>
+</div>
+
+</body>
+<script>
+    $(".navgrp li").mouseover(function(){
+        $(this).find(".navChild").stop(true).slideDown();
+    })
+    $(".navgrp li").mouseleave(function(){
+        $(this).find(".navChild").stop(true).slideUp();
+    })
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+
+</script>
+</html>
