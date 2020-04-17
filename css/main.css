@@ -1,3 +1,6 @@
+body{
+    background: #f4f4f4;
+}
 .header{
     width: 100%;
     position: relative;
@@ -9,7 +12,7 @@
 }
 .top{
     position: relative;
-    width: 1000px;
+    width: 1200px;
     height: 99px;
     margin: 0 auto;
 }
@@ -144,19 +147,108 @@
     width: 100%;
     height: 400px;
 }
-.product-show{
-
+.product-show ,.solution ,.aboutus{
+    width:1200px;
+    margin: 0 auto;
+    position: relative;
 }
-
+.Ttitle{
+    position: relative;
+    height: 94px;
+    margin: 0 auto;
+    color: #22479b;
+    font-size: 20px;
+    line-height: 94px;
+    text-align: left;
+    font-weight: bold;
+    background: url(../img/index_33.png) -7px 60px no-repeat;
+    display: inline-block;
+}
+.ProClaList a {
+    display: block;
+    float: left;
+    padding-right: 20px;
+    padding-left: 4px;
+    color: #333333;
+    font-size: 14px;
+    background: url(../img/classbg.png) right center no-repeat;
+}
+.ProClaList a span {
+    display: block;
+    padding: 0 5px;
+}
+.ProClaList {
+    float: right;
+    line-height: 94px;
+    height: 94px;
+}
+.content-box{
+    margin: 0 8px;
+}
+.product-box{
+    position: relative;
+    width: 1200px;
+    height: 540px;
+    overflow: hidden;
+}
+.product-ul{
+    position: relative;
+    height: 540px;
+}
+.product-box ul {
+    position: relative;
+    float: left;
+    width: 1200px;
+    height: 540px;
+    /* margin-left: 100px; */
+    overflow: hidden;
+}
+.product-box ul li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 328px;
+    height: 246px;
+    margin-right: 72px;
+    padding-bottom: 24px;
+    background: url(../img/proshadow.png) left bottom no-repeat;
+}
+.product-box ul li a {
+    width: 328px;
+    height: 246px;
+    display: block;
+}
+.product-box ul li .pic {
+    width: 316px;
+    height: 234px;
+    border: 6px solid #ededed;
+}
+.product-box ul li .picHover {
+    position: absolute;
+    left: 6px;
+    bottom: 30px;
+    z-index: 10;
+    display: none;
+    width: 276px;
+    height: 62px;
+    padding: 0px 20px;
+    color: #e5ebf3;
+    font-size: 16px;
+    line-height: 30px;
+    background: url(../img/back.png);
+}
 .timeline {
-    width: 100%;
     background-color: #fff;
     box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
+    width: 1200px;
 }
 .timeline .swiper-container {
     height: 600px;
-    width: 100%;
     position: relative;
+    width: 1200px
+}
+.timeline .swiper-wrapper{
+    width: 1200px;
 }
 .timeline .swiper-wrapper {
     transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
@@ -240,7 +332,7 @@
     transition: .4s ease 1.8s;
 }
 .timeline .swiper-pagination {
-    right: 15% !important;
+    right: 85% !important;
     height: 100%;
     display: none;
     flex-direction: column;
@@ -253,7 +345,7 @@
 .timeline .swiper-pagination::before {
     content: "";
     position: absolute;
-    left: -30px;
+    right: -30px;
     top: 0;
     height: 100%;
     width: 1px;
@@ -273,7 +365,7 @@
     content: "";
     position: absolute;
     top: 8px;
-    left: -32.5px;
+    right: -32.5px;
     width: 6px;
     height: 6px;
     border-radius: 100%;
@@ -315,26 +407,27 @@
     -webkit-transform: translateX(3px);
     transform: translateX(3px);
 }
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 999px) {*/
     .timeline .swiper-slide::after {
-        right: -30%;
+        left: 13%;
         bottom: -8%;
         width: 240px;
         height: 50%;
         box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, 0.7);
     }
     .timeline .swiper-slide-content {
-        right: 30%;
+        right: 45%;
         top: 50%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         width: 310px;
         font-size: 11px;
-        text-align: right;
+        text-align: left;
     }
     .timeline .swiper-slide .timeline-year {
         margin-bottom: 0;
         font-size: 32px;
+        padding-bottom: 25px;
     }
     .timeline .swiper-slide .timeline-title {
         font-size: 46px;
@@ -346,7 +439,7 @@
     .timeline .swiper-button-prev {
         top: 15%;
         left: auto;
-        right: 15%;
+        right: 90%;
         -webkit-transform: rotate(90deg) translate(0, 10px);
         transform: rotate(90deg) translate(0, 10px);
     }
@@ -357,7 +450,7 @@
     .timeline .swiper-button-next {
         top: auto;
         bottom: 15%;
-        right: 15%;
+        right: 90%;
         -webkit-transform: rotate(90deg) translate(0, 10px);
         transform: rotate(90deg) translate(0, 10px);
     }
@@ -365,16 +458,146 @@
         -webkit-transform: rotate(90deg) translate(3px, 10px);
         transform: rotate(90deg) translate(3px, 10px);
     }
+/*}*/
+/*@media screen and (min-width: 1024px) {*/
+/*    .timeline .swiper-slide::after {*/
+/*        right: -20%;*/
+/*        bottom: -12%;*/
+/*        width: 240px;*/
+/*        height: 50%;*/
+/*        box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);*/
+/*    }*/
+/*    .timeline .swiper-slide-content {*/
+/*        right: 25%;*/
+/*    }*/
+/*}*/
+.Tmore {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    width: 108px;
+    height: 56px;
 }
-@media screen and (min-width: 1024px) {
-    .timeline .swiper-slide::after {
-        right: -20%;
-        bottom: -12%;
-        width: 240px;
-        height: 50%;
-        box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
-    }
-    .timeline .swiper-slide-content {
-        right: 25%;
-    }
+.Tmore a{
+    width: 68px;
+    height: 56px;
+    display: block;
+    padding-left: 40px;
+    color: #a2a2a2;
+    font-size: 14px;
+    line-height: 56px;
+    font-weight: bold;
+}
+.aboutus-company{
+    float: left;
+    width: 666px;
+    padding-top: 2px;
+    padding-right: 36px;
+    position: relative;
+}
+.companynr {
+    width: 666px;
+    padding-top: 10px;
+    height: 176px;
+    overflow: hidden;
+    color: #474747;
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.company-pic {
+    float: left;
+    width: 298px;
+    height: 232px;
+    padding-top: 50px;
+}
+.footer {
+    width: 100%;
+    background: #172a4f;
+    border-top: 9px solid #e0e3e9;
+}
+.copyright {
+    position: relative;
+    width: 1000px;
+    height: 116px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.copyrightBgL {
+    position: absolute;
+    left: -300px;
+    top: 0px;
+    width: 236px;
+    height: 166px;
+    background: url(../img/btnl.jpg) left top no-repeat;
+}
+.copyrightnr {
+    width: 1000px;
+    padding-bottom: 10px;
+    color: #5d6f91;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+}
+.copyrightnr a {
+    color: #5d6f91;
+}
+.backup {
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+.bann {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -800px;
+    width: 1600px;
+    height: 180px;
+    overflow: hidden;
+}
+.frame-box{
+    margin: 0 8px;
+}
+.main {
+    position: relative;
+    width: 1000px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+    position: relative;
+    z-index: 9999;
+    width: 232px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: -72px;
+}
+.leftProCla {
+    width: 232px;
+    height: 100px;
+    height: auto!important;
+    min-height: 100px;
+}
+.leftTitle {
+    width: 232px;
+    height: 72px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 72px;
+    text-align: center;
+    font-weight: bold;
+    background: url(../img/lefttb.jpg) left top no-repeat;
+}
+.leftTitlePic {
+    width: 232px;
+    height: 80px;
+    display: block;
 }
