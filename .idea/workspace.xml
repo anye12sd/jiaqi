@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ab4622-1cfe-4726-9b8b-051d1baa30d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mobiledetect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/example2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/example2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/example3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/example3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="D:/project\exportToHTML" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../project\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,8 +42,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586836640024</updated>
       <workItem from="1586836642827" duration="3642000" />
-      <workItem from="1587000803399" duration="8671000" />
+      <workItem from="1587000803399" duration="12930000" />
     </task>
     <servers />
   </component>
