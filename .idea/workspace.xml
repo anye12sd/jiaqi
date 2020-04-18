@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ab4622-1cfe-4726-9b8b-051d1baa30d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/product_all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/service.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +46,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Stylus" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jiaqi\js" />
+      <recent name="D:\jiaqi\json" />
       <recent name="D:\project\img" />
     </key>
   </component>
@@ -70,7 +82,7 @@
       <workItem from="1586836642827" duration="3642000" />
       <workItem from="1587000803399" duration="12930000" />
       <workItem from="1587088836750" duration="97000" />
-      <workItem from="1587088951554" duration="16316000" />
+      <workItem from="1587088951554" duration="36497000" />
     </task>
     <servers />
   </component>

@@ -191,6 +191,7 @@ body{
     height: 540px;
     overflow: hidden;
 }
+
 .product-ul{
     position: relative;
     height: 540px;
@@ -227,14 +228,14 @@ body{
     position: absolute;
     left: 6px;
     bottom: 30px;
+    text-align: center;
     z-index: 10;
-    display: none;
     width: 276px;
     height: 62px;
     padding: 0px 20px;
     color: #e5ebf3;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 62px;
     background: url(../img/back.png);
 }
 .timeline {
@@ -731,4 +732,76 @@ body{
 }
 .mainConTitle .position font {
     font-size: 14px;
+}
+.mainContent {
+    color: #565656;
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 20px;
+    height: auto!important;
+    min-height: 560px;
+    height: 560px;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-top: 0px;
+}
+.mainContent-title{
+    font-size: 24px;
+    color: #337FE5;
+    padding:30px 0;
+}
+.mainContent-content-text{
+    font-size: 16px;
+    text-indent: 32px;
+    line-height: 1.5;
+}
+.mainContent-content img{
+    width: 100%;
+}
+.mainConList {
+    width: 748px;
+    padding-top: 20px;
+}
+.mainConList .pic1 {
+    float: left;
+    position: relative;
+    width: 241px;
+    height: 183px;
+    margin-right: 8px;
+    padding-bottom: 30px;
+    background: url(../img/listbg.jpg) left bottom no-repeat;
+}
+.mainConList .pic1Img{
+    text-align: center;
+    background: #fff;
+}
+#showpage{
+    width: 100%;
+    line-height: 50px;
+    float: left;
+    color: #3d3d3d;
+    text-align: center;
+}
+
+.service-box{
+    text-align: center;
+}
+.service-title{
+    font-size: 18px;
+    padding:20px 0;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.service-box img{
+    width: 60%;
+    margin-top: 20px;
+}
+.service-text{
+    font-size: 16px;
+    text-indent: 32px;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 20px;
 }

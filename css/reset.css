@@ -68,3 +68,6 @@ q:before, q:after, blockquote:before, blockquote:after {
 a{
     text-decoration:none;
 }
+img{
+    border:0
+}

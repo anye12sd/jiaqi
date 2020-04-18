@@ -1,0 +1,92 @@
+[
+    {
+        "product_class":"希捷",
+        "product_id":"1",
+        "item":[
+            {
+                "ID":"1",
+                "title":"希捷酷狼PRO 12T ST12000NE0007",
+                "imgUrl":"../pic/2019051014283454826.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"2",
+                "title":"希捷酷狼PRO 10T ST10000NE0004",
+                "imgUrl":"../pic/2019051014073962488.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"3",
+                "title":"希捷酷狼PRO 2T ST2000NE0025",
+                "imgUrl":"../pic/2019051015563068983.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"4",
+                "title":"希捷酷狼PRO 4T ST4000NE0025",
+                "imgUrl":"../pic/2019051015540015709.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"5",
+                "title":"希捷酷狼PRO 6T ST6000NE0021",
+                "imgUrl":"../pic/2019051015251582233.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"6",
+                "title":"希捷酷狼PRO 8T ST8000NE0021",
+                "imgUrl":"../pic/2019051014331543517.jpg",
+                "link":"https://xxxxxxxxx"
+            }
+        ]
+    },
+    {
+        "product_class":"SYNOLOGY/群晖",
+        "product_id":"2",
+        "item":[
+            {
+                "ID":"1",
+                "title":"群晖 FlashStation FS6400",
+                "imgUrl":"../pic/2019072614143756481.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"2",
+                "title":"群晖 FlashStation FS3400",
+                "imgUrl":"../pic/2019072510521283551.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"3",
+                "title":"群晖 FlashStation FS2017",
+                "imgUrl":"../pic/2017121411143352279.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"4",
+                "title":"群晖 FlashStation FS1018",
+                "imgUrl":"../pic/2018030716051897917.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"5",
+                "title":"群晖 SA3400",
+                "imgUrl":"../pic/2019072614104895036.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"6",
+                "title":"群晖 RackStation RS4017xs+",
+                "imgUrl":"../pic/2017121411541433691.jpg",
+                "link":"https://xxxxxxxxx"
+            },
+            {
+                "ID":"7",
+                "title":"群晖 RackStation RS3617xs+",
+                "imgUrl":"../pic/2017121413145194836.jpg",
+                "link":"https://xxxxxxxxx"
+            }
+        ]
+    }
+]

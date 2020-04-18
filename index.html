@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>首页</title>
     <link href="https://cdn.bootcss.com/Swiper/3.4.0/css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/Swiper/3.4.0/js/swiper.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
 <header class="header">
@@ -29,8 +30,18 @@
     <div class="navgrp">
         <ul class="nav">
             <li><a href="/" title="首页">首页</a></li>
-            <li><a href="/" title="解决方案">解决方案</a></li>
-            <li><a href="/" title="联系我们">联系我们</a>
+            <li><a href="/" title="服务内容">服务内容</a>
+                <div class="navChild">
+                    <a href="./pages/service.html?serviceId=1">监控安装</a>
+                    <a href="./pages/service.html?serviceId=2">软件维护</a>
+                    <a href="./pages/service.html?serviceId=3">网络工程</a>
+                    <a href="./pages/service.html?serviceId=4">笔记本维修</a>
+                    <a href="./pages/service.html?serviceId=5">数据恢复</a>
+                    <a href="./pages/service.html?serviceId=6">硬件维修</a>
+                    <div class="triangular"></div>
+                </div>
+            </li>
+            <li><a href="/" title="联系我们">行业解决方案</a>
                 <div class="navChild">
                     <a href="/">咨询1</a>
                     <a href="/">咨询2</a>
@@ -67,13 +78,13 @@
 </div>
 <div class="content-box">
     <div class="product-show">
-        <p class="Ttitle">产品展示</p>
-        <div class="ProClaList">
-            <a title="SYNOLOGY/群晖" href="#"><span>SYNOLOGY/群晖</span> </a>
-            <a title="QNAP/威联通" href="#"><span>QNAP/威联通</span> </a>
-            <a title="INFORTREND/普安" href="#"><span>INFORTREND/普安</span> </a>
-            <a title="SEAGATE/希捷" href="#" style="background: none;"><span>SEAGATE/希捷</span> </a>
-        </div>
+        <p class="Ttitle">服务内容</p>
+<!--        <div class="ProClaList">-->
+<!--            <a title="SYNOLOGY/群晖" href="#"><span>SYNOLOGY/群晖</span> </a>-->
+<!--            <a title="QNAP/威联通" href="#"><span>QNAP/威联通</span> </a>-->
+<!--            <a title="INFORTREND/普安" href="#"><span>INFORTREND/普安</span> </a>-->
+<!--            <a title="SEAGATE/希捷" href="#" style="background: none;"><span>SEAGATE/希捷</span> </a>-->
+<!--        </div>-->
         <div style="clear: both"></div>
         <div class="product-box">
             <div class="product-ul">
@@ -81,48 +92,8 @@
                     <li>
                         <a href="#">
                             <div class="pic">
-                                <img src="pic/2019072510521283551.jpg" alt="群晖 FlashStation FS3400" width="316" height="233" class="PicAuto" style="padding: 0px;">
-                                <div class="picHover" style="display: none;">群晖 FlashStation FS3400</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="pic">
-                                <img src="pic/2017121411143352279.jpg" alt="群晖 FlashStation FS2017" width="316" height="233" class="PicAuto" style="padding: 0px;">
-                                <div class="picHover" style="display: none;">群晖 FlashStation FS2017</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="pic">
-                                <img src="pic/2017121509580952073.jpg" alt="群晖 DiskStation DS3018xs" width="316" height="233" class="PicAuto" style="padding: 0px;">
-                                <div class="picHover" style="display: none;">群晖 DiskStation DS3018xs</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="pic">
-                                <img src="pic/2017121411192184890.jpg" alt="威联通 ES1640 dc v2" width="316" height="233" class="PicAuto" style="padding: 0px;">
-                                <div class="picHover" style="display: none;">威联通 ES1640 dc v2</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="pic">
-                                <img src="pic/2019051014283454826.jpg" alt="希捷酷狼PRO 12T ST12000NE0007" width="175" height="233" class="PicAuto" style="padding: 0px 70px;">
-                                <div class="picHover" style="display: none;">希捷酷狼PRO 12T ST12000NE0007</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="pic">
-                                <img src="pic/2019051014073962488.jpg" alt="希捷酷狼PRO 10T ST10000NE0004" width="175" height="233" class="PicAuto" style="padding: 0px 70px;">
-                                <div class="picHover" style="display: none;">希捷酷狼PRO 10T ST10000NE0004</div>
+                                <img src="pic/2019072510521283551.jpg" alt="网络工程" width="316" height="233" class="PicAuto" style="padding: 0px;">
+                                <div class="picHover">笔记本维修</div>
                             </div>
                         </a>
                     </li>
@@ -130,54 +101,54 @@
             </div>
         </div>
     </div>
-    <div class="container solution">
-        <p class="Ttitle">解决方案</p>
-        <div class="timeline">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url(./img/01.jpg);" data-menu="监控安装">
-                        <div class="swiper-slide-content"><span class="timeline-year">监控安装</span>
-<!--                            <h4 class="timeline-title">Our nice super title</h4>-->
-                            <p class="timeline-text">监控一般分为模拟摄像头和网络摄像头。网络摄像头安装起来较为简单，将网络摄像头固定好后，用网线与路由器连接，路由器必须能上外网。再用一台电脑作为监控。按照厂家给的说明书进行设置就行了。这一般用在家庭或小超市里。而模拟摄像头就麻烦多了，成本投入也较多。一般用在大型厂区。</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-image: url(./img/02.jpg);" data-menu="软件维护">
-                        <div class="swiper-slide-content"><span class="timeline-year">软件维护</span>
-<!--                            <h4 class="timeline-title">Our nice super title</h4>-->
-                            <p class="timeline-text">我们将为您提供各类软件的安装、调试，数据的备份，解决操作系统故障、软件使用疑难、网络浏览问题，专业的软件维护将增强您的系统稳定性，减少故障发生率，降低这类问题带来的损失。</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-image: url(./img/03.jpg);" data-menu="网络工程">
-                        <div class="swiper-slide-content"><span class="timeline-year">网络工程</span>
-<!--                            <h4 class="timeline-title">Our nice super title</h4>-->
-                            <p class="timeline-text">我们拥有系统设计，产品开发，工程施工等方面的综合优势和广泛的用户基础，义乌电脑维修结合实际情况和相应标准，并根据不同用户的具体要求，提供最切实可行的技术方案及系统产品，同时以最优秀的系统集成技术及系统实现能力，为客户提供最佳的交钥匙工程。 </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-image: url(./img/04.jpg);" data-menu="笔记本维修">
-                        <div class="swiper-slide-content"><span class="timeline-year">笔记本维修</span>
-<!--                            <h4 class="timeline-title">Our nice super title</h4>-->
-                            <p class="timeline-text">笔记本维修拥有芯片级维修和板卡级维修的所有设备和技术工程师，义乌北苑电脑维修专业致力于笔记本电脑维修，有丰富的经验和技术，我们愿为您提供一流满意的服务。义乌电脑维修同时为的销售工作提供了强有力的支持，使的售后服务体系更健全。</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-image: url(./img/05.jpg);" data-menu="数据恢复">
-                        <div class="swiper-slide-content"><span class="timeline-year">数据恢复</span>
-<!--                            <h4 class="timeline-title">Our nice super title</h4>-->
-                            <p class="timeline-text">许多用户都没有意识到，义乌电脑维修存储有关键业务数据的硬盘是企业安全的薄弱环节，一旦由于不明原因造成硬盘故障，那简直就是一场灾难，所以很多时候硬盘里的数据比硬盘本身甚至整台电脑还重要，因而对于一般使用者来说，最好请教专业的数据修复专家帮忙，以免损失进一步扩大。义乌电脑维修专业的数据恢复其意义就在于通过专门设备及软硬件处理硬盘，恢复硬盘的正常物理工作状态或者通过技术手段恢复硬盘上文件系统正常的数据逻辑结构，拯救用户保存在硬盘上的重要数据。</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-image: url(./img/06.jpg);" data-menu="硬件维修">
-                        <div class="swiper-slide-content"><span class="timeline-year">硬件维修</span>
-<!--                            <h4 class="timeline-title">Our nice super title</h4>-->
-                            <p class="timeline-text">提供迅速、快捷的义乌电脑维修硬件上门服务，我们秉承着专业、服务致上的原则，为客户提供一流的服务。我们硬件维修的服务内容包括，电脑显示器维修，液晶显示器维修，计算机主板维修，硬盘维修，打印机维修，电脑硬件上门升级服务，笔记本电脑以及各类品牌计算机维修业务等服务。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="container solution">-->
+<!--        <p class="Ttitle">解决方案</p>-->
+<!--        <div class="timeline">-->
+<!--            <div class="swiper-container">-->
+<!--                <div class="swiper-wrapper">-->
+<!--                    <div class="swiper-slide" style="background-image: url(./img/01.jpg);" data-menu="监控安装">-->
+<!--                        <div class="swiper-slide-content"><span class="timeline-year">监控安装</span>-->
+<!--&lt;!&ndash;                            <h4 class="timeline-title">Our nice super title</h4>&ndash;&gt;-->
+<!--                            <p class="timeline-text">监控一般分为模拟摄像头和网络摄像头。网络摄像头安装起来较为简单，将网络摄像头固定好后，用网线与路由器连接，路由器必须能上外网。再用一台电脑作为监控。按照厂家给的说明书进行设置就行了。这一般用在家庭或小超市里。而模拟摄像头就麻烦多了，成本投入也较多。一般用在大型厂区。</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide" style="background-image: url(./img/02.jpg);" data-menu="软件维护">-->
+<!--                        <div class="swiper-slide-content"><span class="timeline-year">软件维护</span>-->
+<!--&lt;!&ndash;                            <h4 class="timeline-title">Our nice super title</h4>&ndash;&gt;-->
+<!--                            <p class="timeline-text">我们将为您提供各类软件的安装、调试，数据的备份，解决操作系统故障、软件使用疑难、网络浏览问题，专业的软件维护将增强您的系统稳定性，减少故障发生率，降低这类问题带来的损失。</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide" style="background-image: url(./img/03.jpg);" data-menu="网络工程">-->
+<!--                        <div class="swiper-slide-content"><span class="timeline-year">网络工程</span>-->
+<!--&lt;!&ndash;                            <h4 class="timeline-title">Our nice super title</h4>&ndash;&gt;-->
+<!--                            <p class="timeline-text">我们拥有系统设计，产品开发，工程施工等方面的综合优势和广泛的用户基础，义乌电脑维修结合实际情况和相应标准，并根据不同用户的具体要求，提供最切实可行的技术方案及系统产品，同时以最优秀的系统集成技术及系统实现能力，为客户提供最佳的交钥匙工程。 </p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide" style="background-image: url(./img/04.jpg);" data-menu="笔记本维修">-->
+<!--                        <div class="swiper-slide-content"><span class="timeline-year">笔记本维修</span>-->
+<!--&lt;!&ndash;                            <h4 class="timeline-title">Our nice super title</h4>&ndash;&gt;-->
+<!--                            <p class="timeline-text">笔记本维修拥有芯片级维修和板卡级维修的所有设备和技术工程师，义乌北苑电脑维修专业致力于笔记本电脑维修，有丰富的经验和技术，我们愿为您提供一流满意的服务。义乌电脑维修同时为的销售工作提供了强有力的支持，使的售后服务体系更健全。</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide" style="background-image: url(./img/05.jpg);" data-menu="数据恢复">-->
+<!--                        <div class="swiper-slide-content"><span class="timeline-year">数据恢复</span>-->
+<!--&lt;!&ndash;                            <h4 class="timeline-title">Our nice super title</h4>&ndash;&gt;-->
+<!--                            <p class="timeline-text">许多用户都没有意识到，义乌电脑维修存储有关键业务数据的硬盘是企业安全的薄弱环节，一旦由于不明原因造成硬盘故障，那简直就是一场灾难，所以很多时候硬盘里的数据比硬盘本身甚至整台电脑还重要，因而对于一般使用者来说，最好请教专业的数据修复专家帮忙，以免损失进一步扩大。义乌电脑维修专业的数据恢复其意义就在于通过专门设备及软硬件处理硬盘，恢复硬盘的正常物理工作状态或者通过技术手段恢复硬盘上文件系统正常的数据逻辑结构，拯救用户保存在硬盘上的重要数据。</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide" style="background-image: url(./img/06.jpg);" data-menu="硬件维修">-->
+<!--                        <div class="swiper-slide-content"><span class="timeline-year">硬件维修</span>-->
+<!--&lt;!&ndash;                            <h4 class="timeline-title">Our nice super title</h4>&ndash;&gt;-->
+<!--                            <p class="timeline-text">提供迅速、快捷的义乌电脑维修硬件上门服务，我们秉承着专业、服务致上的原则，为客户提供一流的服务。我们硬件维修的服务内容包括，电脑显示器维修，液晶显示器维修，计算机主板维修，硬盘维修，打印机维修，电脑硬件上门升级服务，笔记本电脑以及各类品牌计算机维修业务等服务。</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-button-prev"></div>-->
+<!--                <div class="swiper-button-next"></div>-->
+<!--                <div class="swiper-pagination"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="aboutus">
         <div class="aboutus-company">
             <p class="Ttitle">关于我们 <div class="Tmore"><a href="#">更多>></a></div></p>
@@ -211,24 +182,24 @@
         paginationClickable: true
     });
 
-    var timelineSwiper = new Swiper ('.timeline .swiper-container', {
-        direction: 'vertical',
-        loop: false,
-        speed: 1600,
-        mousewheelControl : true,
-        pagination: '.swiper-pagination',
-        paginationBulletRender: function (swiper, index, className) {
-            var menu = document.querySelectorAll('.timeline .swiper-slide')[index].getAttribute('data-menu');
-            return '<span class="' + className + '">' + menu + '</span>';
-        },
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        breakpoints: {
-            768: {
-                direction: 'horizontal',
-            }
-        }
-    });
+    // var timelineSwiper = new Swiper ('.timeline .swiper-container', {
+    //     direction: 'vertical',
+    //     loop: false,
+    //     speed: 1600,
+    //     mousewheelControl : true,
+    //     pagination: '.swiper-pagination',
+    //     paginationBulletRender: function (swiper, index, className) {
+    //         var menu = document.querySelectorAll('.timeline .swiper-slide')[index].getAttribute('data-menu');
+    //         return '<span class="' + className + '">' + menu + '</span>';
+    //     },
+    //     paginationClickable: true,
+    //     nextButton: '.swiper-button-next',
+    //     prevButton: '.swiper-button-prev',
+    //     breakpoints: {
+    //         768: {
+    //             direction: 'horizontal',
+    //         }
+    //     }
+    // });
 </script>
 </html>
