@@ -23,14 +23,13 @@ $(function(){
 });
 
 function createHtml(result){
-    console.log(result)
     var html = "";
     for(var i = 0; i < result.length; i++){
         html += '<li>\n' +
-            '                        <a href="./pages/service.html?serviceId='+result[i].id+'">\n' +
+            '                        <a href="./pages/service.html?serviceName='+result[i].item[0].name+'">\n' +
             '                            <div class="pic">\n' +
-            '                                <img src="'+result[i].imgUrl+'" alt="'+result[i].name+'" width="316" height="233" class="PicAuto" style="padding: 0px;">\n' +
-            '                                <div class="picHover">'+result[i].name+'</div>\n' +
+            '                                <img src="'+result[i].item[0].imgUrl+'" alt="'+result[i].item[0].name+'" width="316" height="233" class="PicAuto" style="padding: 0px;">\n' +
+            '                                <div class="picHover">'+result[i].item[0].name+'</div>\n' +
             '                            </div>\n' +
             '                        </a>\n' +
             '                    </li>'
